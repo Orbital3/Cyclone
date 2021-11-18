@@ -33,7 +33,7 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 ### Indiquer dans ce tableau toutes les sorties (actionneurs) ###
 | Condition 	| Donnée 	| Actionneur 	|
 |---	|---	|---	|
-| Pause du jeu	| pauseGame	| Le bouton pressé arrête le LED qui tourne	|
+| Pause du jeu	| pauseGame	| Quand tu presse le bouton, ça arrête le LED	|
 
 ### Dessiner un schéma de l'électronique de votre projet ###
 <kbd>![Moment 01](/_production/medias/moment_01.png)</kbd>
@@ -43,10 +43,10 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 |---	|---	|---	|---	|
 | 25 novembre 	| Phil 	| Créer la page HTML avec le scoreboard et le début du Js	| HTML, SASS et Js	|
 |  	| Raph 	| Programmer Arduino	| Arduino	|
-|  	| Shylove	|  	|  	|
-| 2 décembre 	| Phil 	|  	|  	|
-|  	| Raph 	| 	|  	|
-|  	| Shylove	| 	|  	|
-| 9 décembre 	| Phil 	|  	|  	|
-|  	| Raph 	|  	|  	|
-|  	| Shylove	| 	|  	|
+|  	| Shylove	| Soudure 	| Classe soudure 	|
+| 2 décembre 	| Phil 	| Finir la programmation web et tester	|  HTML, SASS et Js	|
+|  	| Raph 	| Valider et test	| Arduino et Max 	|
+|  	| Shylove	| Avoir fini le bricolage	|  	|
+| 9 décembre 	| Phil 	| Présentation en classe 	|  	|
+|  	| Raph 	| Présentation en classe 	|  	|
+|  	| Shylove	| Présentation en classe	|  	|
