@@ -12,7 +12,7 @@ Orbital
 
 ### Outils ###
 Nous allons utilisez Max, Arduino et les Technologies Web (HTML, JavaScript et SASS), 
-le projet va être basé sur un échaffaudage de Vite.js et allons intégrer aussi un peu de Vue.js.
+le projet va être basé sur un échaffaudage de Vite.js.
 
 ### Concept de projet ###
 
@@ -34,15 +34,12 @@ le projet va être basé sur un échaffaudage de Vite.js et allons intégrer aus
 ### Calendrier ###
 | Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? 	|
 |---	|---	|---	|---	|
-| 25 novembre 	| Raph 	|  	| Word 	|
+| 25 novembre 	| Raph 	|  	| 	|
 |  	| Phil 	|  	|  	|
-|  	| Sabrina 	|  	|  	|
-|  	| Shylove 	|  	|  	|
-| 2 décembre 	| Philippe 	| Commencement de la cabane ronde et 3D 	| Maya 	|
-|  	| Sabrina 	| Commencement des arbres, roches, buissons et autres au besoin 	| Maya 	|
-|  	| Raphaël 	| Faire la zone de jeu (montagnes et roches), commencement des lumières 	| Maya, Unity 	|
-|  	| Shylove 	| Commencement de l'ambiance sonore, et recherche des effets sonores 	| Reaper et autres 	|
-| 9 décembre 	| Philippe 	| Suite cabane 3D 	| Maya 	|
-|  	| Sabrina 	| Suite asset 3D et début animaux si possible 	| Maya 	|
-|  	| Raphaël 	| Suite création terrain 3D 	| Maya 	|
-|  	| Shylove 	| Suite création sonore (bruit marche, son animaux) 	| Reaper 	|
+|  	| X	|  	|  	|
+| 2 décembre 	| Phil 	|  	|  	|
+|  	| Raph 	| 	|  	|
+|  	| X	| 	|  	|
+| 9 décembre 	| Phil 	|  	|  	|
+|  	| Raph 	|  	|  	|
+|  	| X 	| 	|  	|
