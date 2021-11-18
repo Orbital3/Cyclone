@@ -36,7 +36,7 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 | Pause du jeu	| pauseGame	| Quand tu presse le bouton, ça arrête le LED	|
 
 ### Dessiner un schéma de l'électronique de votre projet ###
-<kbd>![Moment 01](/_production/medias/moment_01.png)</kbd>
+<kbd>![Schéma](./schema_plan.png)</kbd>
 
 ### Calendrier ###
 | Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? |
