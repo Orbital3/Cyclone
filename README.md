@@ -42,11 +42,11 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 | Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? |
 |---	|---	|---	|---	|
 | 25 novembre 	| Phil 	| Créer la page HTML avec le scoreboard et le début du Js	| HTML, SASS et Js	|
-|  	| Raph 	| Programmer Arduino	| Arduino	|
+|  	| Raph 	| Programmer Arduino et Max	| Arduino & Max	|
 |  	| Shylove	| Soudure 	| Classe soudure 	|
 | 2 décembre 	| Phil 	| Finir la programmation web et tester	|  HTML, SASS et Js	|
 |  	| Raph 	| Valider et test	| Arduino et Max 	|
-|  	| Shylove	| Avoir fini le bricolage	|  	|
+|  	| Shylove	| Avoir fini le bricolage	| Rien	|
 | 9 décembre 	| Phil 	| Présentation en classe 	|  	|
 |  	| Raph 	| Présentation en classe 	|  	|
 |  	| Shylove	| Présentation en classe	|  	|
