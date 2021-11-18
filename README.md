@@ -15,10 +15,14 @@ Nous allons utilisez Max, Arduino et les Technologies Web (HTML, JavaScript et S
 le projet va être basé sur un échaffaudage de Vite.js.
 
 ### Concept de projet ###
+Le projet se veut un jeu intéractif ou une lumière LED jaune circule en orbite et lorsqu'elle passe par-dessus les trois marqueurs de points vert et que l'intéracteur presse le bouton au même moment, il gagne un point. Si l'intéracteur presse le bouton trop tôt ou trop tard, il perd.
 
+Chaque tour, la vitesse augmente et le nombre de LED à toucher diminue, donc la difficulté est exponentielle. 
+
+Les points seront affichés en temps réel sur une page web, donc le Javascript sera actualisé avec Max.
 
 ### Décrivez le concept de votre projet à partir du point de vue de l'intéracteur ###
-
+L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable de presser le bouton au même moment
 
 ### Indiquer dans ce tableau toutes les entrées (capteurs) ###
 | Élément 	| Question 	| Description 	|
@@ -34,8 +38,8 @@ le projet va être basé sur un échaffaudage de Vite.js.
 ### Calendrier ###
 | Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? 	|
 |---	|---	|---	|---	|
-| 25 novembre 	| Raph 	|  	| 	|
-|  	| Phil 	|  	|  	|
+| 25 novembre 	| Phil 	| Créer la page HTML avec le scoreboard et le début du Js	| HTML, SASS et Js	|
+|  	| Raph 	| Programmer Arduino	| Arduino	|
 |  	| X	|  	|  	|
 | 2 décembre 	| Phil 	|  	|  	|
 |  	| Raph 	| 	|  	|
