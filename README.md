@@ -22,14 +22,14 @@ Chaque tour, la vitesse augmente et le nombre de LED à toucher diminue, donc la
 Les points seront affichés en temps réel sur une page web, donc le Javascript sera actualisé avec Max.
 
 ### Décrivez le concept de votre projet à partir du point de vue de l'intéracteur ###
-L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable de presser le bouton au même moment
+L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable de presser le bouton au même moment que la lumière passe par dessus l'objectif? Il faut vaincre la vitesse et la précision. À 5 points, nous gagnons.
 
 ### Indiquer dans ce tableau toutes les entrées (capteurs) ###
-| Élément 	| Question 	| Description 	|
+| Capteur 	| Action 	| Donnée 	|
 |---	|---	|---	|
 
 ### Indiquer dans ce tableau toutes les sorties (actionneurs) ###
-| Élément 	| Question 	| Description 	|
+| Condition 	| Donnée 	| Actionneur 	|
 |---	|---	|---	|
 
 ### Dessiner un schéma de l'électronique de votre projet ###
@@ -40,10 +40,10 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 |---	|---	|---	|---	|
 | 25 novembre 	| Phil 	| Créer la page HTML avec le scoreboard et le début du Js	| HTML, SASS et Js	|
 |  	| Raph 	| Programmer Arduino	| Arduino	|
-|  	| X	|  	|  	|
+|  	| Shylove	|  	|  	|
 | 2 décembre 	| Phil 	|  	|  	|
 |  	| Raph 	| 	|  	|
-|  	| X	| 	|  	|
+|  	| Shylove	| 	|  	|
 | 9 décembre 	| Phil 	|  	|  	|
 |  	| Raph 	|  	|  	|
-|  	| X 	| 	|  	|
+|  	| Shylove	| 	|  	|
