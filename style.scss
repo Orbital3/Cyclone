@@ -1,0 +1,15 @@
+*, *::after, *::before {box-sizing: border-box; padding: 0; margin: 0;}
+
+html, body {
+  width: 100vw; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
