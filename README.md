@@ -27,12 +27,12 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 
 ### Indiquer dans ce tableau toutes les entrées (capteurs) ###
 | Capteur 	| Action 	| Donnée 	|
-|---	|---	|---	|---	|
+|---	|---	|--- |
 | Bouton	| Pressé 	| Down	|
 
 ### Indiquer dans ce tableau toutes les sorties (actionneurs) ###
 | Condition 	| Donnée 	| Actionneur 	|
-|---	|---	|---	|---	|
+|---	|---	|---	|
 | Pause du jeu	| pauseGame	| Le bouton pressé arrête le LED qui tourne	|
 
 ### Dessiner un schéma de l'électronique de votre projet ###
