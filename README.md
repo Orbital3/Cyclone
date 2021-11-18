@@ -1,11 +1,12 @@
 # Plan de projet final pour le cours Espace Interactif #
-
+Tiré d'un projet Arduino du (Youtuber Viral Science)[https://www.viralsciencecreativity.com/post/arduino-cyclone-arcade-led-chaser-game]
 ### Titre du projet ###
 Cyclone
 
 ### Membres de l'équipe ###
 * Philippe Trudel
 * Raphaël Fillion
+* Shylove Charles-Vilson
 
 ### Nom de l'équipe ###
 Orbital
@@ -26,17 +27,17 @@ L'intéracteur sera invité à participer à un jeu d'adresse. Sera t'il capable
 
 ### Indiquer dans ce tableau toutes les entrées (capteurs) ###
 | Capteur 	| Action 	| Donnée 	|
-|---	|---	|---	|
+| Bouton	| Pressé 	| Down	|
 
 ### Indiquer dans ce tableau toutes les sorties (actionneurs) ###
 | Condition 	| Donnée 	| Actionneur 	|
-|---	|---	|---	|
+| Pause du jeu	| pauseGame	| Le bouton pressé arrête le LED qui tourne	|
 
 ### Dessiner un schéma de l'électronique de votre projet ###
 <kbd>![Moment 01](/_production/medias/moment_01.png)</kbd>
 
 ### Calendrier ###
-| Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? 	|
+| Échéance 	| Qui ? 	| Fait quoi 	| Avec quel outil ? |
 |---	|---	|---	|---	|
 | 25 novembre 	| Phil 	| Créer la page HTML avec le scoreboard et le début du Js	| HTML, SASS et Js	|
 |  	| Raph 	| Programmer Arduino	| Arduino	|
