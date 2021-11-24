@@ -1,3 +1,5 @@
+@use "sass:color";
+
 *, *::after, *::before {box-sizing: border-box; padding: 0; margin: 0;}
 
 html, body {
@@ -6,10 +8,79 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   h1 {
     font-family: 'montserrat', sans-serif;
     font-weight: 900;
+    font-size: 60px;
     text-transform: uppercase;
   }
+  h4{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@mixin on-circle($item-count, $circle-size, $item-size) {
+  position: relative;
+  width:  $circle-size;
+  height: $circle-size;
+  padding: 0;
+  border-radius: 50%; 
+  list-style: none;       
+  
+  > * {
+    display: block;
+    position: absolute;
+    top:  47%; 
+    left: 50%;
+    width:  $item-size;
+    height: $item-size;
+    margin: -($item-size / 1.82);
+  
+    $angle: (360 / $item-count);
+    $rot: 0;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        transform: 
+          rotate($rot * 1deg) 
+          translate($circle-size / 2) 
+          rotate($rot * -1deg);
+      }
+
+      $rot: $rot + $angle;
+    }
+  }
+}
+
+.cyclone{
+  @include on-circle($item-count: 40, $circle-size: 600px, $item-size: 40px); 
+  position: absolute;
+  border-radius: 50%;
+  border: solid 5px rgb(0, 0, 0);
+  width: 600px;
+  height: 600px;
+
+  .dot{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  display: inline-block;
+}
+.red{
+  background: color.adjust(#ED213A, $lightness: -5%);
+}
+.red-dark{
+  background: color.adjust(#ED213A, $lightness: -20%);
+}
+.yellow{
+  background: color.adjust(#FFF200, $lightness: -10%); 
+}
 }
