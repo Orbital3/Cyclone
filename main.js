@@ -4,13 +4,13 @@ let dotYellow = document.querySelector('.dot.yellow');
 let dots = document.querySelectorAll('.dot');
 
 
-for(let i = 0; i < dots.length; i++) {
+for(let i = 0; i < 999; i++) {
     setTimeout(function timer() {
         dots[i].classList.add('yellow');
         setTimeout(() => {
             dots[i].classList.remove('yellow');
-        }, 500)
-    }, i * 500)
+        }, 500);
+    }, i * 500);
 }
 
 
