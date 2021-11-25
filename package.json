@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "MaxServerWebSockets.js"
+    "start": "MaxServerWebSockets.js",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
