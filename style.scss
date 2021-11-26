@@ -59,7 +59,7 @@ html, body {
 }
 
 .cyclone{
-  @include on-circle($item-count: 40, $circle-size: 600px, $item-size: 40px); 
+  @include on-circle($item-count: 63, $circle-size: 850px, $item-size: 40px); 
   position: absolute;
   border-radius: 50%;
   border: solid 5px rgb(0, 0, 0);

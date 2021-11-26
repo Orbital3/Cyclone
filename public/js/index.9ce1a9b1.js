@@ -24,18 +24,18 @@ const c = function () {
     }
 };
 c();
-document.querySelector(".dot.yellow");
+document.querySelector(".dot.red");
 let i = document.querySelectorAll(".dot");
 
 let o = 0;
 
 function timedOut(){
-    i[o].classList.remove("yellow");
+    i[o].classList.remove("red");
     o++;
     if ( o >= i.length ) o=0;
-    i[o].classList.add("yellow")
+    i[o].classList.add("red")
    
-    setTimeout( timedOut , 100);
+    setTimeout( timedOut , 80);
 } 
 
 timedOut();

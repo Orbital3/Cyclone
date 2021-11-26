@@ -20,7 +20,7 @@ html h1,
 body h1 {
     font-family: montserrat, sans-serif;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 120px;
     text-transform: uppercase
 }
 
@@ -28,190 +28,222 @@ html h4,
 body h4 {
     font-family: montserrat, sans-serif;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 200px;
     text-align: center;
     text-transform: uppercase
 }
 
 .cyclone {
     position: relative;
+    width: 850px;
+    height: 850px;
     padding: 0;
+    border-radius: 50%;
     list-style: none;
     position: absolute;
     border-radius: 50%;
     width: 600px;
     height: 600px;
 }
-
-.cyclone>* {
+.cyclone > * {
     display: block;
     position: absolute;
     top: 47%;
     left: 50%;
     width: 40px;
     height: 40px;
-    margin: -21.978021978px
+    margin: -21.978021978px;
+}
+.cyclone > *:nth-of-type(1) {
+    transform: rotate(0deg) translate(425px) rotate(0deg);
+}
+.cyclone > *:nth-of-type(2) {
+    transform: rotate(5.7142857143deg) translate(425px) rotate(-5.7142857143deg);
+}
+.cyclone > *:nth-of-type(3) {
+    transform: rotate(11.4285714286deg) translate(425px) rotate(-11.4285714286deg);
+}
+.cyclone > *:nth-of-type(4) {
+    transform: rotate(17.1428571429deg) translate(425px) rotate(-17.1428571429deg);
+}
+.cyclone > *:nth-of-type(5) {
+    transform: rotate(22.8571428571deg) translate(425px) rotate(-22.8571428571deg);
+}
+.cyclone > *:nth-of-type(6) {
+    transform: rotate(28.5714285714deg) translate(425px) rotate(-28.5714285714deg);
+}
+.cyclone > *:nth-of-type(7) {
+    transform: rotate(34.2857142857deg) translate(425px) rotate(-34.2857142857deg);
+}
+.cyclone > *:nth-of-type(8) {
+    transform: rotate(40deg) translate(425px) rotate(-40deg);
+}
+.cyclone > *:nth-of-type(9) {
+    transform: rotate(45.7142857143deg) translate(425px) rotate(-45.7142857143deg);
+}
+.cyclone > *:nth-of-type(10) {
+    transform: rotate(51.4285714286deg) translate(425px) rotate(-51.4285714286deg);
+}
+.cyclone > *:nth-of-type(11) {
+    transform: rotate(57.1428571429deg) translate(425px) rotate(-57.1428571429deg);
+}
+.cyclone > *:nth-of-type(12) {
+    transform: rotate(62.8571428571deg) translate(425px) rotate(-62.8571428571deg);
+}
+.cyclone > *:nth-of-type(13) {
+    transform: rotate(68.5714285714deg) translate(425px) rotate(-68.5714285714deg);
+}
+.cyclone > *:nth-of-type(14) {
+    transform: rotate(74.2857142857deg) translate(425px) rotate(-74.2857142857deg);
+}
+.cyclone > *:nth-of-type(15) {
+    transform: rotate(80deg) translate(425px) rotate(-80deg);
+}
+.cyclone > *:nth-of-type(16) {
+    transform: rotate(85.7142857143deg) translate(425px) rotate(-85.7142857143deg);
+}
+.cyclone > *:nth-of-type(17) {
+    transform: rotate(91.4285714286deg) translate(425px) rotate(-91.4285714286deg);
+}
+.cyclone > *:nth-of-type(18) {
+    transform: rotate(97.1428571429deg) translate(425px) rotate(-97.1428571429deg);
+}
+.cyclone > *:nth-of-type(19) {
+    transform: rotate(102.8571428571deg) translate(425px) rotate(-102.8571428571deg);
+}
+.cyclone > *:nth-of-type(20) {
+    transform: rotate(108.5714285714deg) translate(425px) rotate(-108.5714285714deg);
+}
+.cyclone > *:nth-of-type(21) {
+    transform: rotate(114.2857142857deg) translate(425px) rotate(-114.2857142857deg);
+}
+.cyclone > *:nth-of-type(22) {
+    transform: rotate(120deg) translate(425px) rotate(-120deg);
+}
+.cyclone > *:nth-of-type(23) {
+    transform: rotate(125.7142857143deg) translate(425px) rotate(-125.7142857143deg);
+}
+.cyclone > *:nth-of-type(24) {
+    transform: rotate(131.4285714286deg) translate(425px) rotate(-131.4285714286deg);
+}
+.cyclone > *:nth-of-type(25) {
+    transform: rotate(137.1428571429deg) translate(425px) rotate(-137.1428571429deg);
+}
+.cyclone > *:nth-of-type(26) {
+    transform: rotate(142.8571428571deg) translate(425px) rotate(-142.8571428571deg);
+}
+.cyclone > *:nth-of-type(27) {
+    transform: rotate(148.5714285714deg) translate(425px) rotate(-148.5714285714deg);
+}
+.cyclone > *:nth-of-type(28) {
+    transform: rotate(154.2857142857deg) translate(425px) rotate(-154.2857142857deg);
+}
+.cyclone > *:nth-of-type(29) {
+    transform: rotate(160deg) translate(425px) rotate(-160deg);
+}
+.cyclone > *:nth-of-type(30) {
+    transform: rotate(165.7142857143deg) translate(425px) rotate(-165.7142857143deg);
+}
+.cyclone > *:nth-of-type(31) {
+    transform: rotate(171.4285714286deg) translate(425px) rotate(-171.4285714286deg);
+}
+.cyclone > *:nth-of-type(32) {
+    transform: rotate(177.1428571429deg) translate(425px) rotate(-177.1428571429deg);
+}
+.cyclone > *:nth-of-type(33) {
+    transform: rotate(182.8571428571deg) translate(425px) rotate(-182.8571428571deg);
+}
+.cyclone > *:nth-of-type(34) {
+    transform: rotate(188.5714285714deg) translate(425px) rotate(-188.5714285714deg);
+}
+.cyclone > *:nth-of-type(35) {
+    transform: rotate(194.2857142857deg) translate(425px) rotate(-194.2857142857deg);
+}
+.cyclone > *:nth-of-type(36) {
+    transform: rotate(200deg) translate(425px) rotate(-200deg);
+}
+.cyclone > *:nth-of-type(37) {
+    transform: rotate(205.7142857143deg) translate(425px) rotate(-205.7142857143deg);
+}
+.cyclone > *:nth-of-type(38) {
+    transform: rotate(211.4285714286deg) translate(425px) rotate(-211.4285714286deg);
+}
+.cyclone > *:nth-of-type(39) {
+    transform: rotate(217.1428571429deg) translate(425px) rotate(-217.1428571429deg);
+}
+.cyclone > *:nth-of-type(40) {
+    transform: rotate(222.8571428571deg) translate(425px) rotate(-222.8571428571deg);
+}
+.cyclone > *:nth-of-type(41) {
+    transform: rotate(228.5714285714deg) translate(425px) rotate(-228.5714285714deg);
+}
+.cyclone > *:nth-of-type(42) {
+    transform: rotate(234.2857142857deg) translate(425px) rotate(-234.2857142857deg);
+}
+.cyclone > *:nth-of-type(43) {
+    transform: rotate(240deg) translate(425px) rotate(-240deg);
+}
+.cyclone > *:nth-of-type(44) {
+    transform: rotate(245.7142857143deg) translate(425px) rotate(-245.7142857143deg);
+}
+.cyclone > *:nth-of-type(45) {
+    transform: rotate(251.4285714286deg) translate(425px) rotate(-251.4285714286deg);
+}
+.cyclone > *:nth-of-type(46) {
+    transform: rotate(257.1428571429deg) translate(425px) rotate(-257.1428571429deg);
+}
+.cyclone > *:nth-of-type(47) {
+    transform: rotate(262.8571428571deg) translate(425px) rotate(-262.8571428571deg);
+}
+.cyclone > *:nth-of-type(48) {
+    transform: rotate(268.5714285714deg) translate(425px) rotate(-268.5714285714deg);
+}
+.cyclone > *:nth-of-type(49) {
+    transform: rotate(274.2857142857deg) translate(425px) rotate(-274.2857142857deg);
+}
+.cyclone > *:nth-of-type(50) {
+    transform: rotate(280deg) translate(425px) rotate(-280deg);
+}
+.cyclone > *:nth-of-type(51) {
+    transform: rotate(285.7142857143deg) translate(425px) rotate(-285.7142857143deg);
+}
+.cyclone > *:nth-of-type(52) {
+    transform: rotate(291.4285714286deg) translate(425px) rotate(-291.4285714286deg);
+}
+.cyclone > *:nth-of-type(53) {
+    transform: rotate(297.1428571429deg) translate(425px) rotate(-297.1428571429deg);
+}
+.cyclone > *:nth-of-type(54) {
+    transform: rotate(302.8571428571deg) translate(425px) rotate(-302.8571428571deg);
+}
+.cyclone > *:nth-of-type(55) {
+    transform: rotate(308.5714285714deg) translate(425px) rotate(-308.5714285714deg);
+}
+.cyclone > *:nth-of-type(56) {
+    transform: rotate(314.2857142857deg) translate(425px) rotate(-314.2857142857deg);
+}
+.cyclone > *:nth-of-type(57) {
+    transform: rotate(320deg) translate(425px) rotate(-320deg);
+}
+.cyclone > *:nth-of-type(58) {
+    transform: rotate(325.7142857143deg) translate(425px) rotate(-325.7142857143deg);
+}
+.cyclone > *:nth-of-type(59) {
+    transform: rotate(331.4285714286deg) translate(425px) rotate(-331.4285714286deg);
+}
+.cyclone > *:nth-of-type(60) {
+    transform: rotate(337.1428571429deg) translate(425px) rotate(-337.1428571429deg);
+}
+.cyclone > *:nth-of-type(61) {
+    transform: rotate(342.8571428571deg) translate(425px) rotate(-342.8571428571deg);
+}
+.cyclone > *:nth-of-type(62) {
+    transform: rotate(348.5714285714deg) translate(425px) rotate(-348.5714285714deg);
+}
+.cyclone > *:nth-of-type(63) {
+    transform: rotate(354.2857142857deg) translate(425px) rotate(-354.2857142857deg);
 }
 
-.cyclone>*:nth-of-type(1) {
-    transform: rotate(0) translate(300px) rotate(0)
-}
-
-.cyclone>*:nth-of-type(2) {
-    transform: rotate(9deg) translate(300px) rotate(-9deg)
-}
-
-.cyclone>*:nth-of-type(3) {
-    transform: rotate(18deg) translate(300px) rotate(-18deg)
-}
-
-.cyclone>*:nth-of-type(4) {
-    transform: rotate(27deg) translate(300px) rotate(-27deg)
-}
-
-.cyclone>*:nth-of-type(5) {
-    transform: rotate(36deg) translate(300px) rotate(-36deg)
-}
-
-.cyclone>*:nth-of-type(6) {
-    transform: rotate(45deg) translate(300px) rotate(-45deg)
-}
-
-.cyclone>*:nth-of-type(7) {
-    transform: rotate(54deg) translate(300px) rotate(-54deg)
-}
-
-.cyclone>*:nth-of-type(8) {
-    transform: rotate(63deg) translate(300px) rotate(-63deg)
-}
-
-.cyclone>*:nth-of-type(9) {
-    transform: rotate(72deg) translate(300px) rotate(-72deg)
-}
-
-.cyclone>*:nth-of-type(10) {
-    transform: rotate(81deg) translate(300px) rotate(-81deg)
-}
-
-.cyclone>*:nth-of-type(11) {
-    transform: rotate(90deg) translate(300px) rotate(-90deg)
-}
-
-.cyclone>*:nth-of-type(12) {
-    transform: rotate(99deg) translate(300px) rotate(-99deg)
-}
-
-.cyclone>*:nth-of-type(13) {
-    transform: rotate(108deg) translate(300px) rotate(-108deg)
-}
-
-.cyclone>*:nth-of-type(14) {
-    transform: rotate(117deg) translate(300px) rotate(-117deg)
-}
-
-.cyclone>*:nth-of-type(15) {
-    transform: rotate(126deg) translate(300px) rotate(-126deg)
-}
-
-.cyclone>*:nth-of-type(16) {
-    transform: rotate(135deg) translate(300px) rotate(-135deg)
-}
-
-.cyclone>*:nth-of-type(17) {
-    transform: rotate(144deg) translate(300px) rotate(-144deg)
-}
-
-.cyclone>*:nth-of-type(18) {
-    transform: rotate(153deg) translate(300px) rotate(-153deg)
-}
-
-.cyclone>*:nth-of-type(19) {
-    transform: rotate(162deg) translate(300px) rotate(-162deg)
-}
-
-.cyclone>*:nth-of-type(20) {
-    transform: rotate(171deg) translate(300px) rotate(-171deg)
-}
-
-.cyclone>*:nth-of-type(21) {
-    transform: rotate(180deg) translate(300px) rotate(-180deg)
-}
-
-.cyclone>*:nth-of-type(22) {
-    transform: rotate(189deg) translate(300px) rotate(-189deg)
-}
-
-.cyclone>*:nth-of-type(23) {
-    transform: rotate(198deg) translate(300px) rotate(-198deg)
-}
-
-.cyclone>*:nth-of-type(24) {
-    transform: rotate(207deg) translate(300px) rotate(-207deg)
-}
-
-.cyclone>*:nth-of-type(25) {
-    transform: rotate(216deg) translate(300px) rotate(-216deg)
-}
-
-.cyclone>*:nth-of-type(26) {
-    transform: rotate(225deg) translate(300px) rotate(-225deg)
-}
-
-.cyclone>*:nth-of-type(27) {
-    transform: rotate(234deg) translate(300px) rotate(-234deg)
-}
-
-.cyclone>*:nth-of-type(28) {
-    transform: rotate(243deg) translate(300px) rotate(-243deg)
-}
-
-.cyclone>*:nth-of-type(29) {
-    transform: rotate(252deg) translate(300px) rotate(-252deg)
-}
-
-.cyclone>*:nth-of-type(30) {
-    transform: rotate(261deg) translate(300px) rotate(-261deg)
-}
-
-.cyclone>*:nth-of-type(31) {
-    transform: rotate(270deg) translate(300px) rotate(-270deg)
-}
-
-.cyclone>*:nth-of-type(32) {
-    transform: rotate(279deg) translate(300px) rotate(-279deg)
-}
-
-.cyclone>*:nth-of-type(33) {
-    transform: rotate(288deg) translate(300px) rotate(-288deg)
-}
-
-.cyclone>*:nth-of-type(34) {
-    transform: rotate(297deg) translate(300px) rotate(-297deg)
-}
-
-.cyclone>*:nth-of-type(35) {
-    transform: rotate(306deg) translate(300px) rotate(-306deg)
-}
-
-.cyclone>*:nth-of-type(36) {
-    transform: rotate(315deg) translate(300px) rotate(-315deg)
-}
-
-.cyclone>*:nth-of-type(37) {
-    transform: rotate(324deg) translate(300px) rotate(-324deg)
-}
-
-.cyclone>*:nth-of-type(38) {
-    transform: rotate(333deg) translate(300px) rotate(-333deg)
-}
-
-.cyclone>*:nth-of-type(39) {
-    transform: rotate(342deg) translate(300px) rotate(-342deg)
-}
-
-.cyclone>*:nth-of-type(40) {
-    transform: rotate(351deg) translate(300px) rotate(-351deg)
-}
 
 .cyclone .dot {
     position: relative;
@@ -222,14 +254,14 @@ body h4 {
     display: inline-block
 }
 
-.cyclone .red {
+.cyclone .yellow {
     background: #fbff00
 }
 
-.cyclone .red-dark {
+.cyclone .green-dark {
     background: #4fc500
 }
 
-.cyclone .yellow {
+.cyclone .red {
     background: #e2122c
 }
