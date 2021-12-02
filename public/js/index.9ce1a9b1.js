@@ -41,7 +41,7 @@ window.onbeforeunload = function(){
 };
 
 let value2Previous = 0;
-
+let corps=document.body;
 // RÉCEPTION DES MESSAGES
 ws.onmessage = function (event) {
 	let messageArray = event.data.split(' ');
@@ -53,6 +53,7 @@ ws.onmessage = function (event) {
         let value = parseInt(messageArray[1]);
 		let point = document.getElementById("pointage");
         point.innerHTML=value;
+        corps.style.background='rgb(0,255,0)';
 
 	} else if ( messageArray[0] == "/pos" ) {
 		let value2 = parseInt(messageArray[1]);
