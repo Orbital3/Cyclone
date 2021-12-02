@@ -68,6 +68,8 @@ void loop() {
       leds[spot - 1].setRGB(255, 140, 0);
       leds[spot].setRGB(0, 255, 0);
       leds[spot + 1].setRGB(255, 140, 0);
+      Serial.print("/posRandom ");
+      Serial.println(spot);
       sleds[0].setRGB(0, 0, 255);
       PlayGame(spot-1, spot+1);
     }
@@ -91,10 +93,13 @@ void loop() {
       if (findRandom) { 
         spot = random(NUM_LEDS - 1);              //Total Cyclone LED - 4
         findRandom = false;
+        
       }
       leds[spot - 1].setRGB(255, 140, 0);
       leds[spot].setRGB(0, 255, 0);
       leds[spot + 1].setRGB(255, 140, 0);
+      Serial.print("/posRandom ");
+      Serial.println(spot);
       sleds[1].setRGB(0, 0, 255);
       PlayGame(spot-1, spot+1);
     }
@@ -118,6 +123,8 @@ void loop() {
         findRandom = false;
       }
       leds[spot].setRGB(0, 255, 0);
+      Serial.print("/posRandom ");
+      Serial.println(spot);
       sleds[2].setRGB(0, 0, 255);
       PlayGame(spot, spot);
     }
@@ -141,6 +148,8 @@ void loop() {
         findRandom = false;
       }
       leds[spot].setRGB(0, 255, 0);
+      Serial.print("/posRandom ");
+      Serial.println(spot);
       sleds[3].setRGB(0, 0, 255);
       PlayGame(spot, spot);
     }

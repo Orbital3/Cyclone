@@ -41,6 +41,7 @@ window.onbeforeunload = function(){
 };
 
 let value2Previous = 0;
+let value3Previous = 0;
 
 // RÉCEPTION DES MESSAGES
 ws.onmessage = function (event) {
@@ -56,23 +57,16 @@ ws.onmessage = function (event) {
 
 	} else if ( messageArray[0] == "/pos" ) {
 		let value2 = parseInt(messageArray[1]);
-
-        //document.querySelector(".dot.red");
         let i = document.querySelectorAll(".dot");
         i[value2Previous].classList.remove("red");
         i[value2].classList.add("red")
         value2Previous = value2;
-/*
-        function timedOut(){
-            i[value2].classList.remove("red");
-            o++;
-            if ( o >= i.length ) o=0;
-            value2[o].classList.add("red")
-           
-            setTimeout( timedOut , 80);
-        } 
         
-        timedOut();
-        */
-	}
+	} else if (messageArray[0] == "/posRandom") {
+        let value3 = parseInt(messageArray[1]);
+        let i = document.querySelectorAll(".dot");
+        i[value3Previous].classList.remove("green-dark");
+        i[value3].classList.add('green-dark');
+        value3Previous = value3;
+    }
 };
