@@ -41,6 +41,9 @@ void loop() {
     fill_rainbow(sleds, SCORE_LEDS, 0, 7); //2 = longer gradient strip
     if (digitalRead(4) == LOW) {
       Position = 0;
+      point = 0;
+      Serial.print("/poi ");
+      Serial.println(point);
       findRandom = true;
       delay(500);
       for (byte i = 0; i < NUM_LEDS; i++) {
@@ -157,6 +160,7 @@ void loop() {
       delay(300);
       if (Position == spot+1) {
         point++;
+
         level = gameState;
         gameState = 98;
       } else {
@@ -209,7 +213,6 @@ void winner() {
   }
 }
 void loser() {
-  point = 0;
   for (byte i = 0; i < 3; i++) {
     for (byte j = 0; j < NUM_LEDS; j++) {
       leds[j].setRGB(255, 0, 0);

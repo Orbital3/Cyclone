@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right, #0083B0, #00B4DB)
+    background: linear-gradient(to right, #0083B0, #00B4DB);
 }
 
 html h1,

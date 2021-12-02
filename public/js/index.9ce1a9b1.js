@@ -42,8 +42,11 @@ window.onbeforeunload = function(){
 
 let value2Previous = 0;
 let value3Previous = 0;
+let value3LeftPrevious = 0;
+let value3RightPrevious = 0;
 
 let corps=document.body;
+let tempColor = '';
 // RÉCEPTION DES MESSAGES
 ws.onmessage = function (event) {
 	let messageArray = event.data.split(' ');
@@ -55,10 +58,13 @@ ws.onmessage = function (event) {
         let value = parseInt(messageArray[1]);
 		let point = document.getElementById("pointage");
         point.innerHTML=value;
-        corps.style.background='rgb(0,255,0)';
+        corps.style.background = 'linear-gradient(to top right, #19ed15, #1aed59)';
+        setTimeout(()=> {
+            corps.style.background = 'linear-gradient(to right, #0083B0, #00B4DB)';
+        }, 1750)        
 
 	} else if ( messageArray[0] == "/pos" ) {
-		let value2 = parseInt(messageArray[1]);
+		let value2 = (parseInt(messageArray[1])) - 1;
         let i = document.querySelectorAll(".dot");
         i[value2Previous].classList.remove("red");
         i[value2].classList.add("red")
@@ -66,9 +72,22 @@ ws.onmessage = function (event) {
 
 	} else if (messageArray[0] == "/posRandom") {
         let value3 = parseInt(messageArray[1]);
+        let value3Left = value3 -1;
+        let value3Right = value3 + 1;
         let i = document.querySelectorAll(".dot");
+        let points = document.getElementById("pointage");
+
         i[value3Previous].classList.remove("green-dark");
+        i[value3LeftPrevious].classList.remove('yellow');
+        i[value3RightPrevious].classList.remove('yellow');
         i[value3].classList.add('green-dark');
+        if(points.innerText < 2) {
+            i[value3Left].classList.add('yellow');
+            i[value3Right].classList.add('yellow');
+        }
+
         value3Previous = value3;
+        value3LeftPrevious = value3Left;
+        value3RightPrevious = value3Right;
     }
 };
